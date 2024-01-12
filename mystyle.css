@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    text-align: center;
+}
+
+body {
+    background-color:#a0d2eb;
+}
+
+img {
+    3width: 20%;
+    height: 20%;
+    padding-bottom: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+h2 {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+a {
+    font-size: 10px;
+}
+
+ul {
+    color: rgb(62, 62, 187);
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+
+ol {
+    color: rgb(139, 0, 69);
+    display: flex;
+}
+
+li {
+    flex: auto ;
+}
+
+#science-image {
+    border: 5px solid darkblue;
+}
+
+#history-image {
+    border-radius: 50%;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
